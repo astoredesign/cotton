@@ -1,0 +1,9 @@
+{
+  "name": "brilliant",
+  "version": "0.0.0",
+  "description": "brilliant",
+  "main": "server.js",
+  "author": {
+    "name": "Admin"
+  }
+}
