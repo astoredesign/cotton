@@ -1,0 +1,16 @@
+[
+  {
+    "outputFile": "wwwroot/css/styles.css",
+    "inputFile": "Client/scss/application.scss",
+    "options": {
+      "sourceMap": true
+    }
+  },
+  {
+    "outputFile": "Client/app/home/landing.css",
+    "inputFile": "Client/scss/landing/landing.scss",
+    "options": {
+      "sourceMap": true
+    }
+  }
+]
