@@ -7,7 +7,7 @@ font {
 font-size: 12px;
 }
 body {
-	padding:20px 0;
+	padding:20px;
 	background:#5d662d;
 	margin: 0px;
 	text-align:center;
@@ -107,9 +107,10 @@ ul{
 
 
 
-	#wrap {width:1000px;margin: auto;text-align:left;}	
-	#wrapIn {border:5px solid #cacdbc; background:#ffffff;}		
-	#wrapIn1 {background:url(https://sep.yimg.com/ty/cdn/yhst-75285728865031/top-bg.jpg) no-repeat;}	
+	#wrap {border:5px solid #cacdbc; background:#ffffff;}		
+	#wrapIn1 {
+		background:url(https://sep.yimg.com/ty/cdn/yhst-75285728865031/top-bg.jpg) no-repeat;
+	}	
 	
 
 
@@ -133,23 +134,20 @@ ul{
 
 #sbck {background: url(https://sep.yimg.com/ty/cdn/yhst-75285728865031/search-bg.gif) no-repeat;height:56px;}
 
-
-
-
-#mainArea {}
-#mainAreaIn {}
-
-#leftColumn {float:left;width:225px;;}
-#leftColumnIn {padding-left:25px;text-align:left;}
+#mainArea {
+	padding: 0 25px;
+}
+#leftColumn {}
+#leftColumnIn {text-align:left;}
 
 #search {height:104px;text-align:left;}
-#searchIn {padding:38px 0 0 0px; margin:0 0 0 -9px;}
+#searchIn {padding:38px 0 0 0px;}
 #search .tex {width:178px;height:15px;text-align:left;}
 #search .c1 {float:left;padding:0 0 0 0;}
 #search .c2 {float:left;padding:0 0 0 3px;}
 #search .txt {padding:0 0 0px 1px; height:15px;}
 
-.lNav {width:191px}
+.lNav {}
 
 .lNav .ttl {font: bold 15px Arial;color:#463322;padding:19px 5px 1px 17px;border-bottom:3px solid #cacbb0;}
 
@@ -186,7 +184,7 @@ ul{
 
 #lBan {text-align:center;}
 
-#centralColumn {float:left;width:750px;}
+#centralColumn { text-align: left;}
 #cColin {padding-left:10px;}
 
 .itOut {background: url(https://sep.yimg.com/ty/cdn/yhst-75285728865031/it-bot.gif) no-repeat bottom left;}
@@ -210,7 +208,10 @@ ul{
 .wlcm { font-size:11px;padding:15px 12px;}
 .wlcm .ttl{ padding-bottom:3px;font-size:20px;color:#463322;}
 
-.innBan {padding-bottom:6px;}
+.innBan {
+	padding-bottom:6px;
+	text-align: center;
+}
 
 .wideColumn {padding:0 15px;}
 
@@ -465,8 +466,8 @@ li {background: url(https://sep.yimg.com/ty/cdn/yhst-75285728865031/dot4.gif) no
 .combTitle span{float:left;display:block;font-size:14px;font-weight:bold;padding:4px 0 3px 32px;background: url(https://sep.yimg.com/ty/cdn/yhst-75285728865031/comb-arr.gif) no-repeat 12px 5px;color:#85272f;}
 
 
-#articleText {width:740px; background:#fff;}
-#articleTextIn {width:700px; margin: 0 0 0 22px;}
+#articleText {background:#fff;}
+#articleTextIn {margin: 0 0 0 22px;}
 
 
 

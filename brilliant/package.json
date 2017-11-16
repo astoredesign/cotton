@@ -5,5 +5,10 @@
   "main": "server.js",
   "author": {
     "name": "Admin"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.5",
+    "bootstrap-markdown": "2.10.0",
+    "bootstrap-select": "1.11.2"
   }
 }
