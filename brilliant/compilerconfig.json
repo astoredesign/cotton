@@ -1,6 +1,6 @@
 [
   {
-    "outputFile": "css/styles.css",
+    "outputFile": "styles.css",
     "inputFile": "scss/application.scss",
     "options": {
       "sourceMap": true
