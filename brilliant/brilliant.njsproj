@@ -254,6 +254,7 @@
     <Compile Include="node_modules\bootstrap\js\tests\vendor\qunit.js" />
     <Compile Include="node_modules\bootstrap\js\tests\vendor\tether.min.js" />
     <Compile Include="server.js" />
+    <Compile Include="ssl\store\tools.js" />
     <Content Include="compilerconfig.json" />
     <Content Include="node_modules\bootstrap-markdown\.editorconfig" />
     <Content Include="node_modules\bootstrap-markdown\.npmignore" />
@@ -467,6 +468,8 @@
     <Folder Include="node_modules\bootstrap\scss\mixins\" />
     <Folder Include="node_modules\bootstrap\scss\utilities\" />
     <Folder Include="scss\" />
+    <Folder Include="ssl\" />
+    <Folder Include="ssl\store\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

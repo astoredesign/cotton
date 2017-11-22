@@ -372,7 +372,6 @@ a.href1:hover {
 
 #leftColumn {
 	@include media-breakpoint-down(sm) {
-		order: 1;
 	}
 }
 
@@ -383,17 +382,28 @@ a.href1:hover {
 #search {
 	height: 104px;
 	text-align: left;
+
+	@include media-breakpoint-down(sm) {
+		height: auto;
+		padding-bottom: 5px;
+	}
 }
 
 #searchIn {
 	padding: 38px 0 0 0px;
+
+	.tex {
+		width: 178px;
+		height: 15px;
+		text-align: left;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 8px 0 0 0px;
+	}
 }
 
-#search .tex {
-	width: 178px;
-	height: 15px;
-	text-align: left;
-}
+
 
 #search .c1 {
 	float: left;
@@ -408,25 +418,72 @@ a.href1:hover {
 #search .txt {
 	padding: 0 0 0px 1px;
 	height: 15px;
+	width: 54px;
+
+	@include media-breakpoint-down(sm) {
+		float: left;
+	}
 }
 
 .lNav {
+
+
+	&.active .ttl i {
+		background-position: 0 -17px;
+	}
+
+	.ttl {
+		font: bold 15px Arial;
+		color: #463322;
+		padding: 19px 5px 1px 14px;
+		border-bottom: 3px solid #cacbb0;
+
+		@include media-breakpoint-down(sm) {
+			padding: 8px 5px 8px 17px;
+		}
+
+		i {
+			display: none;
+			background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/lnav-arr.png) no-repeat;
+
+			@include media-breakpoint-down(sm) {
+				display: inline-block;
+				vertical-align: middle;
+				width: 23px;
+				height: 17px;
+			}
+		}
+
+		span {
+			display: inline-block;
+
+			@include media-breakpoint-down(sm) {
+				padding: 1px 0px 0px 0px;
+				vertical-align: middle;
+				line-height: 17px;
+			}
+		}
+	}
+
+	.N1 {
+		border-bottom: 1px solid #cacbb0;
+		padding: 1px 0px;
+	}
+
+	.lNavContent {
+		@include media-breakpoint-down(sm) {
+			display: none;
+		}
+	}
+
+	&.active .lNavContent {
+		@include media-breakpoint-down(sm) {
+			display: block;
+			padding-bottom: 10px;
+		}
+	}
 }
 
-.lNav .ttl {
-	font: bold 15px Arial;
-	color: #463322;
-	padding: 19px 5px 1px 17px;
-	border-bottom: 3px solid #cacbb0;
-}
-
-.lNav .N1 {
-	border-bottom: 1px solid #cacbb0;
-	padding: 1px 0px;
-}
-
-.lNav .N2 {
-}
 
 .lev1 {
 	padding: 1px 17px 1px 17px;
@@ -760,6 +817,7 @@ a.href1:hover {
 /**/
 .lban {
 	text-align: center;
+	padding: 20px 0 0 0;
 }
 
 .crambsDib {
