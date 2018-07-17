@@ -10,14 +10,15 @@ font {
 }
 
 body {
-	padding: 20px;
-	background: #5d662d;
-	margin: 0px;
-	text-align: center;
+    padding: 20px;
+    background: #5d662d;
+    margin: 0px;
+    text-align: center;
 
-	@include media-breakpoint-down(sm) {
-		padding: 15px;
-	}
+    @include media-breakpoint-down(sm) {
+        padding: 0;
+        background: #fff;
+    }
 }
 
 a {
@@ -236,8 +237,13 @@ a.href1:hover {
 
 
 #wrapIn1 {
-	border: 5px solid #cacdbc;
-	background: #ffffff;
+    border: 5px solid #cacdbc;
+    background: #ffffff;
+
+
+    @include media-breakpoint-down(sm) {
+        border: none;
+    }
 }
 
 #wrapIn2 {
@@ -246,20 +252,25 @@ a.href1:hover {
 
 
 #topDiv {
-	position: relative;
-	text-align: left;
-	background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/top-bg-res.png) bottom left repeat-x;
-	background-color: #5d412a;
-	min-height: 114px;
+    position: relative;
+    text-align: left;
+    background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/top-bg-res.png) bottom left repeat-x;
+    background-color: #5d412a;
+    min-height: 114px;
 
-	.in {
-		min-height: 100px;
-		background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/top-red-bg.png) center top no-repeat;
+    @include media-breakpoint-down(sm) {
+        background-color: none;
+    }
 
-		@include media-breakpoint-down(sm) {
-			padding-bottom: 35px;
-		}
-	}
+    .in {
+        min-height: 100px;
+        background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/top-red-bg.png) center top no-repeat;
+
+        @include media-breakpoint-down(sm) {
+            padding-bottom: 35px;
+            background: none;
+        }
+    }
 }
 
 #logoBlock {
@@ -270,49 +281,58 @@ a.href1:hover {
 	position: absolute;
 
 	@include media-breakpoint-down(sm) {
-		width: 130px;
+		width: 190px;
 		padding: 8px 10px;
-		position: static;
+        text-align: center;
+		left: 50%;
+        margin-left: -95px;
 	}
 }
 
 #vc {
-	position: absolute;
-	top: 22px;
-	color: #fff;
-	font-size: 11px;
-	width: 140px;
-	right: 20px;
+    position: absolute;
+    top: 22px;
+    color: #fff;
+    font-size: 11px;
+    width: 140px;
+    right: 20px;
 
-	@include media-breakpoint-down(sm) {
-		right: 0;
-	}
+    @include media-breakpoint-down(sm) {
+        top: 38px;
+        right: 20px;
+        width: 28px;
+    }
 
-	a {
-		color: #fff;
-		text-decoration: none;
-	}
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 
-	a:hover {
-		text-decoration: underline;
-	}
+    a:hover {
+        text-decoration: underline;
+    }
 
-	.c1 {
-		float: left;
-		width: 28px;
-		background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/cart.png) no-repeat 0 0px;
-		padding: 0px 0 0 0px;
+    .c1 {
+        float: left;
+        width: 28px;
+        background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/cart.png) no-repeat 0 0px;
+        padding: 0px 0 0 0px;
 
-		@include media-breakpoint-down(sm) {
-			background: none;
-		}
-	}
+        a {
+            width: 28px;
+            display: block;
+        }
+    }
 
-	.c2 {
-		float: left;
-		width: 110px;
-		line-height: 14px;
-	}
+    .c2 {
+        float: left;
+        width: 110px;
+        line-height: 14px;
+
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
 }
 
 
@@ -328,9 +348,10 @@ a.href1:hover {
 
 
 	@include media-breakpoint-down(md) {
-		margin-top: 8px;
+		/*margin-top: 8px;
 		width: 300px;
-		margin-left: -150px;
+		margin-left: -150px;*/
+        display: none;
 	}
 
 	@include media-breakpoint-down(sm) {
@@ -816,8 +837,12 @@ a.href1:hover {
 
 /**/
 .lban {
-	text-align: center;
-	padding: 20px 0 0 0;
+    text-align: center;
+    padding: 20px 0 0 0;
+
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
 }
 
 .crambsDib {
@@ -1584,20 +1609,24 @@ li {
 
 
 #footer {
-	font-size: 11px;
-	clear: both;
-	background: #fdf5e0 url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/footer-bg-resp.gif) repeat-x;
-	min-height: 87px;
-	color: #656e4e;
-	position: relative;
+    font-size: 11px;
+    clear: both;
+    background: #fdf5e0 url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/footer-bg-resp.gif) repeat-x;
+    min-height: 87px;
+    color: #656e4e;
+    position: relative;
 
-	.in {
-		background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/footer-logo.gif) 38px 21px no-repeat;
+    @include media-breakpoint-down(md) {
+        background-color: #313600;
+    }
 
-		@include media-breakpoint-down(md) {
-			background: none;
-		}
-	}
+    .in {
+        background: url(https://p11.secure.hostingprod.com/@site.brilliantoutdoors.com/ssl/store/footer-logo.gif) 38px 21px no-repeat;
+
+        @include media-breakpoint-down(md) {
+            background: none;
+        }
+    }
 }
 
 
