@@ -201,40 +201,40 @@ a.href2:hover {
 
 
 #wrap {
-    background: url(../i/main-bgy.gif) repeat-y center top;
+    background: url(https://www.monarchcypress.com/i/main-bgy.gif) repeat-y center top;
     min-width: 1020px;
 }
 
 #wrapIn {
-    background: url(../i/main-bg1.gif) no-repeat center top;
+    background: url(https://www.monarchcypress.com/i/main-bg1.gif) no-repeat center top;
     min-width: 1020px;
 }
 
 
 
 #wrapIn1 {
-    background: url(../i/main-bg2.gif) no-repeat center bottom;
-    min-width: 1020px;
+    background: url(https://www.monarchcypress.com/i/main-bg2.gif) no-repeat center bottom;
+    /*min-width: 1020px;*/
 }
 
 #wrapIn1Ind {
-    background: url(../i/main-bg2ind.gif) no-repeat center bottom;
-    min-width: 1020px;
+    background: url(https://www.monarchcypress.com/i/main-bg2ind.gif) no-repeat center bottom;
+    /*min-width: 1020px;*/
 }
 
 #wrap, #wrapIn, #wrapIn1, #wrapIn1Ind {
-    min-width: 1020px;
+    /*min-width: 1020px;*/
 }
 
 #wrapIn2 {
-    width: 1000px;
+    /*width: 1000px;*/
     margin: auto;
     text-align: left;
     padding: 0 0 0 0;
 }
 
 #topDiv {
-    height: 110px;
+    min-height: 110px;
 }
 
 #topDiv1 {
@@ -330,7 +330,7 @@ a.href2:hover {
 
 #search {
     text-align: left;
-    background: url(../i/search-bg.gif) no-repeat 0px 5px;
+    background: url(https://www.monarchcypress.com/i/search-bg.gif) no-repeat 0px 5px;
     position: absolute;
     width: 260px;
     margin: 17px 0 0 670px;
@@ -361,7 +361,7 @@ a.href2:hover {
     border: 0px;
     padding: 0 0 0 0px;
     margin: 8px 0 0 0px;
-    background: url(../i/t-p.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/t-p.gif) no-repeat;
     font-size: 11px;
 }
 
@@ -385,7 +385,7 @@ a.href2:hover {
 }
 
 #mainAreaIn {
-    background: url(../i/leaf.gif) no-repeat left bottom;
+    background: url(https://www.monarchcypress.com/i/leaf.gif) no-repeat left bottom;
 }
 
 #mainAreaIn1 {
@@ -410,7 +410,7 @@ a.href2:hover {
 }
 
 .selWrap1 {
-    background: url(../i/sel-bg.gif) repeat-x left bottom;
+    background: url(https://www.monarchcypress.com/i/sel-bg.gif) repeat-x left bottom;
     padding: 0 0 12px 0;
     margin-bottom: 11px;
 }
@@ -560,31 +560,31 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 .jScrollPaneContainer .jScrollPaneTrack {
-    background: url(../i/frontpane_track.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/frontpane_track.gif) repeat-y;
 }
 
 .jScrollPaneContainer .jScrollPaneDrag {
-    background: url(../i/frontpane_holder.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/frontpane_holder.gif) repeat-y;
 }
 
 .jScrollPaneContainer .jScrollPaneDragTop {
-    background: url(../i/frontpane_dragedge.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/frontpane_dragedge.gif) no-repeat;
     height: 1px;
 }
 
 .jScrollPaneContainer .jScrollPaneDragBottom {
-    background: url(../i/frontpane_dragedge.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/frontpane_dragedge.gif) no-repeat;
     height: 1px;
 }
 
 .jScrollPaneContainer a.jScrollArrowUp {
     height: 12px;
-    background: url(../i/frontpane_up.gif) no-repeat 0 0;
+    background: url(https://www.monarchcypress.com/i/frontpane_up.gif) no-repeat 0 0;
 }
 
 .jScrollPaneContainer a.jScrollArrowDown {
     height: 12px;
-    background: url(../i/frontpane_down.gif) no-repeat 0 0;
+    background: url(https://www.monarchcypress.com/i/frontpane_down.gif) no-repeat 0 0;
 }
 
 
@@ -631,20 +631,20 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 
 .lev2 {
     padding: 1px 3px 1px 27px;
-    background: url(../i/lmenu-dot2.gif) no-repeat 11px 3px;
+    background: url(https://www.monarchcypress.com/i/lmenu-dot2.gif) no-repeat 11px 3px;
     border-bottom: 1px solid #eae8e6;
 }
 
 .lev2on {
     padding: 1px 3px 1px 27px;
-    background: url(../i/lmenu-dot2a.gif) no-repeat 11px 3px;
+    background: url(https://www.monarchcypress.com/i/lmenu-dot2a.gif) no-repeat 11px 3px;
     border-bottom: 1px solid #eae8e6;
 }
 
 .lev3 {
     padding: 1px 3px 1px 39px;
     font-weight: normal;
-    background: url(../i/lmenu-dot2.gif) no-repeat 23px 3px;
+    background: url(https://www.monarchcypress.com/i/lmenu-dot2.gif) no-repeat 23px 3px;
     font-size: 11px;
     border-bottom: 1px solid #eae8e6;
 }
@@ -652,7 +652,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 .lev3on {
     padding: 1px 3px 1px 39px;
     font-weight: normal;
-    background: url(../i/lmenu-dot2a.gif) no-repeat 23px 3px;
+    background: url(https://www.monarchcypress.com/i/lmenu-dot2a.gif) no-repeat 23px 3px;
     font-size: 11px;
     border-bottom: 1px solid #eae8e6;
 }
@@ -733,7 +733,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 .signDiv1 {
-    background: url(../i/sign-bg.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/sign-bg.gif) no-repeat;
     padding: 2px 0 0 10px;
 }
 
@@ -760,13 +760,13 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 .lcol2 {
-    background: url(../i/lcol-dot-x.gif) repeat-x top left;
+    background: url(https://www.monarchcypress.com/i/lcol-dot-x.gif) repeat-x top left;
     padding: 12px 3px 12px 3px;
     text-align: center;
 }
 
 .lcolb {
-    background: url(../i/lcol-dots.gif) no-repeat 1px 0;
+    background: url(https://www.monarchcypress.com/i/lcol-dots.gif) no-repeat 1px 0;
     padding: 8px 0 8px 0;
     text-align: center;
     position: absolute;
@@ -778,7 +778,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 .lcol3 {
-    background: url(../i/lcol-dot-x.gif) repeat-x top left;
+    background: url(https://www.monarchcypress.com/i/lcol-dot-x.gif) repeat-x top left;
     padding: 12px 3px 12px 3px;
     text-align: center;
 }
@@ -792,7 +792,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     width: 161px;
     height: 85px;
     margin: -95px 0 0 0;
-    background: url(../i/leaf.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/leaf.gif) no-repeat;
 }
 
 #centralColumn {
@@ -882,7 +882,7 @@ a img {
 
 /* prev, next, prevPage and nextPage buttons */
 a.browse {
-    background: url(../i/scroll-but.png) no-repeat;
+    background: url(https://www.monarchcypress.com/i/scroll-but.png) no-repeat;
     display: block;
     width: 30px;
     height: 80px;
@@ -962,7 +962,7 @@ a.left:active {
     list-style: none;
     padding: 0;
     margin: 0;
-    background: url(../i/car-bg.gif) no-repeat 3px 3px;
+    background: url(https://www.monarchcypress.com/i/car-bg.gif) no-repeat 3px 3px;
 }
 
 #caroWrap1 .marg {
@@ -1024,12 +1024,12 @@ a.left:active {
 }
 
 #sdet2 {
-    background: url(../i/sdet1.jpg) no-repeat;
+    background: url(https://www.monarchcypress.com/i/sdet1.jpg) no-repeat;
     padding: 15px 16px 15px 21px;
 }
 
 #sdet1a #sdet3 {
-    background: url(../i/sdet-y.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/sdet-y.gif) repeat-y;
     padding: 0px 0 3px 15px;
 }
 
@@ -1060,7 +1060,7 @@ a.left:active {
     color: #605850;
     font-weight: bold;
     font-size: 14px;
-    background: url(../i/crumbttl.gif) no-repeat 0 4px;
+    background: url(https://www.monarchcypress.com/i/crumbttl.gif) no-repeat 0 4px;
     padding: 0 0 2px 12px;
 }
 
@@ -1084,7 +1084,7 @@ a.left:active {
 
 .crBot {
     height: 10px;
-    background: url(../i/crBot.gif) repeat-x;
+    background: url(https://www.monarchcypress.com/i/crBot.gif) repeat-x;
 }
 
 .pgtop {
@@ -1231,7 +1231,7 @@ a.left:active {
 }
 
 .sec .ct {
-    background: url(../i/secc-y.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/secc-y.gif) repeat-y;
     width: 163px;
 }
 
@@ -1244,7 +1244,7 @@ a.left:active {
 }
 
 .sec .ct .tbg {
-    background: url(../i/secc-t.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/secc-t.gif) no-repeat;
     padding-top: 12px;
     width: 163px;
     text-align: center;
@@ -1280,13 +1280,13 @@ a.left:active {
 }
 
 .sec .line2 .ct {
-    background: url(../i/secc-y.gif) repeat-y !important;
+    background: url(https://www.monarchcypress.com/i/secc-y.gif) repeat-y !important;
     text-align: center;
     padding: 0 0 0 0 !important;
 }
 
 .sec .line2 .ct .add {
-    background: url(../i/secc-b.gif) no-repeat bottom center;
+    background: url(https://www.monarchcypress.com/i/secc-b.gif) no-repeat bottom center;
     padding-bottom: 9px;
 }
 
@@ -1457,7 +1457,7 @@ a.left:active {
     color: #605850;
     font-weight: bold;
     font-size: 14px;
-    background: url(../i/reldot.gif) no-repeat 0 1px;
+    background: url(https://www.monarchcypress.com/i/reldot.gif) no-repeat 0 1px;
     padding: 0 0 4px 18px;
 }
 
@@ -1478,13 +1478,13 @@ a.left:active {
 
 .rel .line1 td {
     vertical-align: top;
-    background: url(../i/rel-y.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/rel-y.gif) repeat-y;
 }
 
 .rel .line2 td {
     padding: 0 0 14px 0;
     vertical-align: bottom;
-    background: url(../i/rel2.gif) no-repeat bottom left;
+    background: url(https://www.monarchcypress.com/i/rel2.gif) no-repeat bottom left;
 }
 
 .rel .line2 .marg {
@@ -1492,7 +1492,7 @@ a.left:active {
 }
 
 .rel .tbg {
-    background: url(../i/rel1.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/rel1.gif) no-repeat;
     padding-top: 5px;
 }
 
@@ -1534,7 +1534,7 @@ a.left:active {
     float: left;
     width: 302px;
     font-size: 11px;
-    background: url(../i/item-pic-bg.gif) no-repeat center top;
+    background: url(https://www.monarchcypress.com/i/item-pic-bg.gif) no-repeat center top;
     text-align: left;
     padding: 0 0 0 0;
 }
@@ -1643,29 +1643,29 @@ a.left:active {
 }
 
 .c4 .iord1 {
-    background: url(../i/iord-y.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/iord-y.gif) repeat-y;
 }
 
 .c4 .iord2 {
-    background: url(../i/iord1.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/iord1.gif) no-repeat;
 }
 
 .c4 .iord3 {
     padding: 7px 0 0px 12px;
-    background: url(../i/iord2.gif) no-repeat bottom left;
+    background: url(https://www.monarchcypress.com/i/iord2.gif) no-repeat bottom left;
 }
 
 .c4a .iord1 {
-    background: url(../i/iorda-y.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/iorda-y.gif) repeat-y;
 }
 
 .c4a .iord2 {
-    background: url(../i/iorda1.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/iorda1.gif) no-repeat;
 }
 
 .c4a .iord3 {
     padding: 7px 0 0px 12px;
-    background: url(../i/iorda2.gif) no-repeat bottom left;
+    background: url(https://www.monarchcypress.com/i/iorda2.gif) no-repeat bottom left;
 }
 
 #itemDiv .c4 .c2 {
@@ -1908,7 +1908,7 @@ a.left:active {
 
 .itemText {
     padding: 12px 12px 12px 2px;
-    background: url(../i/itext-bg.gif) repeat-x;
+    background: url(https://www.monarchcypress.com/i/itext-bg.gif) repeat-x;
     margin: 14px 0 0 0;
 }
 
@@ -1918,7 +1918,7 @@ a.left:active {
 
 #monogram {
     position: absolute;
-    background: url(../i/tell-bg1.png) no-repeat;
+    background: url(https://www.monarchcypress.com/i/tell-bg1.png) no-repeat;
     width: 629px;
     text-align: center;
     border: 1px solid #b3aaa1;
@@ -2003,17 +2003,17 @@ a.left:active {
 }
 
 .nif1 {
-    background: url(../i/ninfo-y.gif) repeat-y center left;
+    background: url(https://www.monarchcypress.com/i/ninfo-y.gif) repeat-y center left;
     width: 191px;
     margin: 4px 0 4px 0;
 }
 
 .nif2 {
-    background: url(../i/ninfo1.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/ninfo1.gif) no-repeat;
 }
 
 .nif3 {
-    background: url(../i/ninfo2.gif) no-repeat bottom left;
+    background: url(https://www.monarchcypress.com/i/ninfo2.gif) no-repeat bottom left;
     padding: 11px 10px 11px 10px;
     text-align: center
 }
@@ -2038,7 +2038,7 @@ a.left:active {
     color: #605850;
     font-weight: bold;
     font-size: 14px;
-    background: url(../i/curdot.gif) no-repeat 0 1px;
+    background: url(https://www.monarchcypress.com/i/curdot.gif) no-repeat 0 1px;
     padding: 0 0 4px 18px;
 }
 
@@ -2128,7 +2128,7 @@ a.left:active {
 .footSpot .c2 {
     float: left;
     width: 250px;
-    background: url(../i/foot-bg.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/foot-bg.gif) repeat-y;
 }
 
 .footSpot .c2in {
@@ -2257,17 +2257,17 @@ a.left:active {
 
 .sch1 {
     width: 752px;
-    background: url(../i/s-bgy.gif) repeat-y;
+    background: url(https://www.monarchcypress.com/i/s-bgy.gif) repeat-y;
     margin-top: 20px;
 }
 
 .sch2 {
-    background: url(../i/s-bg1.gif) no-repeat;
+    background: url(https://www.monarchcypress.com/i/s-bg1.gif) no-repeat;
 }
 
 .sch3 {
     padding: 20px 0px 20px 30px;
-    background: url(../i/s-bg2.gif) no-repeat left bottom;
+    background: url(https://www.monarchcypress.com/i/s-bg2.gif) no-repeat left bottom;
 }
 
 .schTable {
@@ -2448,11 +2448,11 @@ a.left:active {
 }
 
 #prevLink {
-    background: url(../jqjs/prevlabel.gif) left 95% no-repeat;
+    background: url(https://www.monarchcypress.com/jqjs/prevlabel.gif) left 95% no-repeat;
 }
 
 #nextLink {
-    background: url(../jqjs/nextlabel.gif) right 95% no-repeat;
+    background: url(https://www.monarchcypress.com/jqjs/nextlabel.gif) right 95% no-repeat;
 }
 
 
@@ -2561,7 +2561,7 @@ div.jqZoomTitle {
     background-color: white;
     padding: 8px;
     text-align: center;
-    /*background-image: url(../images/zoomloader.gif);*/
+    /*background-image: url(https://www.monarchcypress.com/images/zoomloader.gif);*/
     background-repeat: no-repeat;
     background-position: 43px 30px;
     width: 90px;
