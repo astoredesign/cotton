@@ -417,6 +417,7 @@
     <Content Include="node_modules\bootstrap\scss\_variables.scss" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="resp_article_old.html" />
     <Content Include="resp_article.html" />
     <Content Include="scss\application.scss" />
     <Content Include="scss\main.scss" />
