@@ -421,6 +421,7 @@
     <Content Include="resp_article.html" />
     <Content Include="scss\application.scss" />
     <Content Include="scss\main.scss" />
+    <Content Include="css-edits.css" />
     <Content Include="styles.css" />
     <Content Include="styles.min.css" />
   </ItemGroup>

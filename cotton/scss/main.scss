@@ -26,6 +26,13 @@ a {
     padding: 0px;
 }
 
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
 .bd {
     font-weight: bold;
 }
@@ -201,36 +208,42 @@ a.href2:hover {
 
 
 #wrap {
-    background: url(https://www.monarchcypress.com/i/main-bgy.gif) repeat-y center top;
-    min-width: 1020px;
+    background: #fff url(https://www.monarchcypress.com/i/main-bgy-l.gif) repeat-y left top;
+    min-width: 320px;
 }
 
 #wrapIn {
-    background: url(https://www.monarchcypress.com/i/main-bg1.gif) no-repeat center top;
-    min-width: 1020px;
+    background: url(https://www.monarchcypress.com/i/main-bgy-r.gif) repeat-y right top;
 }
 
 
 
 #wrapIn1 {
-    background: url(https://www.monarchcypress.com/i/main-bg2.gif) no-repeat center bottom;
-    /*min-width: 1020px;*/
+    background: url(https://www.monarchcypress.com/i/main-bg-corner-l.gif) no-repeat left 110px;
+
+    @include media-breakpoint-down(sm) {
+        background: url(https://www.monarchcypress.com/i/main-bg-corner-l.gif) no-repeat left 180px;
+    }
 }
 
 #wrapIn1Ind {
     background: url(https://www.monarchcypress.com/i/main-bg2ind.gif) no-repeat center bottom;
-    /*min-width: 1020px;*/
 }
 
 #wrap, #wrapIn, #wrapIn1, #wrapIn1Ind {
-    /*min-width: 1020px;*/
 }
 
 #wrapIn2 {
     /*width: 1000px;*/
+    background: url(https://www.monarchcypress.com/i/main-bg-corner-r.gif) no-repeat right 110px;
     margin: auto;
     text-align: left;
     padding: 0 0 0 0;
+
+
+    @include media-breakpoint-down(sm) {
+        background: url(https://www.monarchcypress.com/i/main-bg-corner-r.gif) no-repeat right 180px;
+    }
 }
 
 #topDiv {
@@ -238,14 +251,31 @@ a.href2:hover {
 }
 
 #topDiv1 {
+    background: url(https://www.monarchcypress.com/i/main-bg-top-x.gif) repeat-x left top;
     height: 40px;
 }
+
+#topDiv2 {
+    background: url(https://www.monarchcypress.com/i/main-bg-top-l.gif) no-repeat left top;
+    height: 40px;
+}
+
+#topDiv3 {
+    background: url(https://www.monarchcypress.com/i/main-bg-top-r.gif) no-repeat right top;
+    height: 40px;
+    position: relative;
+}
+
 
 #topNav {
     padding: 11px 0 0 0;
     position: absolute;
     width: 670px;
     text-align: right;
+
+    @include media-breakpoint-down(sm) {
+       display: none;
+    }
 }
 
 #topNav ul {
@@ -270,6 +300,17 @@ a.href2:hover {
 
 #topNav a:hover {
     text-decoration: underline;
+}
+
+
+.topMain {
+    background: #fff url(https://www.monarchcypress.com/i/top-lion.gif) no-repeat right top;
+    min-height: 70px;
+
+    @include media-breakpoint-down(sm) {
+        min-height: 140px;
+        background: #fff;
+    }
 }
 
 #vc {
@@ -324,8 +365,25 @@ a.href2:hover {
 }
 
 #topText {
-    margin: 21px 0 0 420px;
+    margin: 21px 0 0 -100px;
     position: absolute;
+    left: 50%;
+
+
+    @include media-breakpoint-down(md) {
+        right: 100px;
+        width: 260px;
+        left: auto;
+        margin: 6px 0 0 200px;
+    }
+
+
+    @include media-breakpoint-down(sm) {
+        position: static;
+        margin: 0 0 10px 0;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 #search {
@@ -333,8 +391,22 @@ a.href2:hover {
     background: url(https://www.monarchcypress.com/i/search-bg.gif) no-repeat 0px 5px;
     position: absolute;
     width: 260px;
-    margin: 17px 0 0 670px;
+    right: 100px;
+    margin: 17px 0 0 0;
     z-index: 99;
+
+
+    @include media-breakpoint-down(md) {
+        margin: 33px 0 0 0;
+    }
+
+    @include media-breakpoint-down(sm) {
+        position: static;
+        right: auto;
+        margin: 0 auto;
+        width: 235px;
+        height: 30px;
+    }
 }
 
 #search .c1 {
@@ -379,13 +451,24 @@ a.href2:hover {
 
 #logo {
     padding: 12px 0 0 30px;
+    position: absolute;
+
+    @include media-breakpoint-down(sm) {
+        position: static;
+        padding: 8px 0 8px 20px;
+        text-align: center;
+    }
 }
 
 #mainArea {
 }
 
 #mainAreaIn {
-    background: url(https://www.monarchcypress.com/i/leaf.gif) no-repeat left bottom;
+    background: url(https://www.monarchcypress.com/i/leaf.gif) no-repeat 30px bottom;
+
+    @include media-breakpoint-down(sm) {
+        flex-direction: column-reverse;
+    }
 }
 
 #mainAreaIn1 {
@@ -394,14 +477,23 @@ a.href2:hover {
 
 
 #leftColumn {
-    float: left;
-    width: 160px;
 }
 
 #leftColumnIn {
+    padding: 0 0 0 15px;
+
+    @include media-breakpoint-down(sm) {
+        padding: 0 15px 0 15px;
+    }
 }
 
 #leftColumnIn1 {
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 20px;
+        margin-top: 15px;
+        border-top: 1px solid #d7d4d2;
+    }
 }
 
 
@@ -459,7 +551,7 @@ div.selectbox-wrapper ul li {
 }
 
 .selWrap2 {
-    background: url('../i/sel-bg1.gif') no-repeat;
+    background: url('https://www.monarchcypress.com/i/sel-bg1.gif') no-repeat;
     padding-left: 12px;
     height: 22px;
 }
@@ -475,7 +567,7 @@ div.selectbox-wrapper ul li {
     width: 129px; /* Resize Width */
     display: block;
     text-align: left;
-    background: url('../i/t-p.gif') no-repeat;
+    background: url('https://www.monarchcypress.com/i/t-p.gif') no-repeat;
     cursor: pointer;
     color: #333;
     border: 0px solid #000;
@@ -484,7 +576,7 @@ div.selectbox-wrapper ul li {
 
 #lNavWrap {
     height: 230px;
-    width: 158px;
+    /*width: 158px;*/
     overflow: auto;
 }
 
@@ -597,7 +689,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 #lNav {
-    width: 130px;
+    /*width: 130px;*/
     font-family: Segoe UI,Arial, Tahoma, Verdana, Helvetica;
     margin: 0 0 0 10px;
 }
@@ -615,7 +707,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
     border-top: 1px solid #fff;
-    background: url(/i/lmenu-dot1.gif) no-repeat 5px 7px;
+    background: url(https://www.monarchcypress.com/i/lmenu-dot1.gif) no-repeat 5px 7px;
 }
 
 .lev1on {
@@ -625,7 +717,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     border-left: 1px solid #bbb4aa;
     border-right: 1px solid #bbb4aa;
     border-top: 1px solid #bbb4aa;
-    background: url(/i/lmenu-dot1.gif) no-repeat 5px 7px;
+    background: url(https://www.monarchcypress.com/i/lmenu-dot1.gif) no-repeat 5px 7px;
 }
 
 
@@ -796,11 +888,12 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 #centralColumn {
-    float: left;
-    width: 840px;
 }
 
 #cColin {
+    @include media-breakpoint-down(sm) {
+        padding: 0 0px 0 10px;
+    }
 }
 
 #cColin1 {
@@ -1024,8 +1117,9 @@ a.left:active {
 }
 
 #sdet2 {
-    background: url(https://www.monarchcypress.com/i/sdet1.jpg) no-repeat;
+    background: url(https://www.monarchcypress.com/i/sdet1rp.jpg) repeat-x;
     padding: 15px 16px 15px 21px;
+    margin-right: 10px;
 }
 
 #sdet1a #sdet3 {
@@ -2152,9 +2246,29 @@ a.left:active {
     clear: both;
     color: #cac5c1;
     text-align: center;
-    padding: 0 0 14px 0;
+    padding: 14px 0 0 0;
 }
 
+.footer {
+    background: url(https://www.monarchcypress.com/i/footer-bg-x.gif) repeat-x left top;
+    height: 74px;
+}
+
+.footerIn1 {
+    background: url(https://www.monarchcypress.com/i/footer-bg-l.gif) no-repeat left top;
+    height: 74px;
+}
+
+.footerIn2 {
+    background: url(https://www.monarchcypress.com/i/footer-bg-r.gif) no-repeat right top;
+    height: 74px;
+    position: relative;
+
+
+    @include media-breakpoint-down(md) {
+        background: url(https://www.monarchcypress.com/i/footer-bg-r-sm.gif) no-repeat right top;
+    }
+}
 
 .footCards {
     position: absolute;
@@ -2165,9 +2279,20 @@ a.left:active {
 
 
 #botNav {
-    padding: 26px 20px 0px 20px;
+    padding: 12px 20px 0px 20px;
     color: #fff;
     font-size: 11px;
+
+
+    @include media-breakpoint-down(md) {
+        padding: 12px 15px 0px 85px;
+        height: 71px;
+    }
+
+    @include media-breakpoint-down(xs) {
+        padding: 1px 15px 0px 85px;
+        height: 71px;
+    }
 }
 
 #botNav a {
@@ -2183,13 +2308,23 @@ a.left:active {
     color: #cac5c1;
     padding: 6px 0 0 0px;
     font-size: 10px;
+
+    @include media-breakpoint-down(md) {
+        background: #f1eceb;
+        position: absolute;
+        margin: 1px 0 0 0;
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 
 #copy1 {
+    background: #efebea;
     color: #c8c5c3;
     font: 10px Tahoma;
-    padding: 14px 0 0 0px;
+    padding: 44px 0 14px 0px;
 }
 
 #copy1 a {
