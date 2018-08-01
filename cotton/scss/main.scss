@@ -274,7 +274,7 @@ a.href2:hover {
     text-align: right;
 
     @include media-breakpoint-down(sm) {
-       display: none;
+        display: none;
     }
 }
 
@@ -1303,19 +1303,45 @@ a.left:active {
 
 .secWrap2 {
     padding: 10px 0 10px 0;
+
+    @include media-breakpoint-down(xs) {
+        padding: 10px 10px 10px 0;
+    }
 }
 
 .sec {
     margin: 0 0 0 0;
+
+    @include media-breakpoint-down(xs) {
+        width: 100%;
+
+        @include media-breakpoint-down(xs) {
+            border-top: 1px dotted #7f7f7f;
+        }
+    }
+}
+
+.sec + .sec {
+    @include media-breakpoint-down(xs) {
+        border-top: 0;
+    }
 }
 
 .sec .fst td {
     border-top: 1px dotted #7f7f7f;
+
+    @include media-breakpoint-down(xs) {
+        border-top: 0;
+    }
 }
 
 .sec .line1 td {
     border-left: 1px dotted #7f7f7f;
     border-right: 1px dotted #7f7f7f;
+
+    @include media-breakpoint-down(xs) {
+        border-bottom: 1px dotted #7f7f7f;
+    }
 }
 
 .sec .line2 td {
@@ -1325,12 +1351,18 @@ a.left:active {
 }
 
 .sec .ct {
-    background: url(https://www.monarchcypress.com/i/secc-y.gif) repeat-y;
-    width: 163px;
+    /*width: 163px;*/
 }
 
 .sec .it {
-    width: 163px;
+    /*width: 163px;*/
+}
+
+.sec td {
+    @include media-breakpoint-down(xs) {
+        display: block;
+        width: 100% !important;
+    }
 }
 
 .sec .line1 td {
@@ -1338,28 +1370,48 @@ a.left:active {
 }
 
 .sec .ct .tbg {
-    background: url(https://www.monarchcypress.com/i/secc-t.gif) no-repeat;
+    border-top: 1px solid #d7d4d2;
+    border-left: 1px solid #d7d4d2;
+    border-right: 1px solid #d7d4d2;
+    margin: 5px 5px 0 5px;
+    background: #f7f5f4;
     padding-top: 12px;
-    width: 163px;
+    /*width: 163px;*/
     text-align: center;
 }
 
 .sec .it .tbg {
     padding-top: 6px;
-    width: 163px;
+    /*width: 163px;*/
     text-align: center;
 }
 
 .sec .p1 {
-    width: 163px !important;
+    /*width: 163px !important;*/
     height: 122px;
     text-align: center;
     margin: auto;
+    margin: 5px;
+    background-position: center top;
+}
+
+.sec .ct .p1 {
+    height: auto;
 }
 
 .sec .line1 .it .marg {
     padding: 5px 16px 0px 16px;
     text-align: left;
+
+    @include media-breakpoint-down(xs) {
+        text-align: center;
+    }
+}
+
+.sec .line2 {
+    @include media-breakpoint-down(xs) {
+        display: none;
+    }
 }
 
 .sec .line1 .ct .marg {
@@ -1374,14 +1426,20 @@ a.left:active {
 }
 
 .sec .line2 .ct {
-    background: url(https://www.monarchcypress.com/i/secc-y.gif) repeat-y !important;
     text-align: center;
     padding: 0 0 0 0 !important;
+
+    .marg {
+        border-bottom: 1px solid #d7d4d2;
+        border-left: 1px solid #d7d4d2;
+        border-right: 1px solid #d7d4d2;
+        margin: 0 5px 5px 5px;
+        background: #f7f5f4;
+    }
 }
 
-.sec .line2 .ct .add {
-    background: url(https://www.monarchcypress.com/i/secc-b.gif) no-repeat bottom center;
-    padding-bottom: 9px;
+.sec tr .ct .add {
+    padding: 9px 0;
 }
 
 .sec .line2 .ct img {
@@ -1399,8 +1457,13 @@ a.left:active {
     text-align: left;
     color: #797168;
     font-size: 11px;
-    width: 130px;
+    /*width: 130px;*/
     padding: 5px 0 9px 0;
+
+    @include media-breakpoint-down(xs) {
+        width: 130px;
+        margin: auto;
+    }
 }
 
 .sec .pr1 {
@@ -1421,22 +1484,41 @@ a.left:active {
     font-size: 12px;
 }
 
-.asecdet .img {
-    border: 1px solid #d7d4d2;
-    padding: 10px 10px 7px 10px;
-    margin: 0 20px 0 0;
-    float: left;
+.asecdet {
+    padding: 10px 10px 10px 0;
+
+    td {
+        vertical-align: top;
+
+        @include media-breakpoint-down(xs) {
+            width: 120px;
+        }
+    }
+
+    td + td {
+        @include media-breakpoint-down(xs) {
+            width: auto;
+        }
+    }
+
+    .img {
+        border: 1px solid #d7d4d2;
+        padding: 10px 10px 7px 10px;
+        margin: 0 20px 0 0;
+        float: left;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: normal;
+        color: #cc3300;
+        padding: 5px 0 0 0;
+    }
 }
 
-.asecdet h2 {
-    font-size: 22px;
-    font-weight: normal;
-    color: #cc3300;
-    padding: 5px 0 0 0;
-}
+.asecdet
 
 .asecdet {
-    padding: 10px 0 10px 0;
 }
 
 .sord {
